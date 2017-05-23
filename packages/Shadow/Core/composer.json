@@ -1,0 +1,12 @@
+{
+    "name": "Shadow/Core",
+    "description": "Core  controller",
+    "authors": [
+        {
+            "name": "Shadow Travel",
+            "email": "shadow@shadow.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}

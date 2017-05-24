@@ -1,6 +1,8 @@
 {
     "name": "shadowtravel/core-control",
     "description": "Core  controller",
+    "keywords": ["laravel"],
+    "license": "MIT",    
     "authors": [
         {
             "name": "Shadow Travel",

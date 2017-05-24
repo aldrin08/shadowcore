@@ -10,5 +10,12 @@
     "minimum-stability": "dev",
     "require": {
         "php": "^5.3.3 || ^7.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Shadow\\Core\\": "src/"
+        }
     }
+
+
 }

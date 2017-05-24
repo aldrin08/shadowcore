@@ -6,7 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Shadow\\Core\\' => array($baseDir . '/src'),
+    'Shadow\\Core\\' => array($baseDir . '/src', $vendorDir . '/shadowtravel/core-control/src'),
     'Parsedown' => array($vendorDir . '/erusev/parsedown'),
     'Doctrine\\Common\\Inflector\\' => array($vendorDir . '/doctrine/inflector/lib'),
 );

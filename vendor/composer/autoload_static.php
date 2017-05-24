@@ -159,6 +159,7 @@ class ComposerStaticInitf50441844da1a5b69d40e64795f8778a
             'Shadow\\Core\\' => 
             array (
                 0 => __DIR__ . '/../..' . '/src',
+                1 => __DIR__ . '/..' . '/shadowtravel/core-control/src',
             ),
         ),
         'P' => 

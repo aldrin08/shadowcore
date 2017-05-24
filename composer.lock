@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "bed0b7d1ebd1856b473802326d8f003d",
+    "content-hash": "d55693d6994704a109aa4af3b868f271",
     "packages": [
         {
             "name": "doctrine/inflector",
@@ -677,6 +677,46 @@
                 "uuid"
             ],
             "time": "2017-03-26 21:03:42"
+        },
+        {
+            "name": "shadowtravel/core-control",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/aldrin08/shadowcore.git",
+                "reference": "2b3fd159e0cfbeb3c57f1a2a6eef587f99256a18"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/aldrin08/shadowcore/zipball/2b3fd159e0cfbeb3c57f1a2a6eef587f99256a18",
+                "reference": "2b3fd159e0cfbeb3c57f1a2a6eef587f99256a18",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "5.4.*",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Shadow\\Core\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Shadow Travel",
+                    "email": "shadow@shadow.com"
+                }
+            ],
+            "description": "Core  controller",
+            "keywords": [
+                "laravel"
+            ],
+            "time": "2017-05-24 03:15:08"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -1578,7 +1618,9 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "shadowtravel/core-control": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

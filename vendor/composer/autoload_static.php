@@ -6,9 +6,20 @@ namespace Composer\Autoload;
 
 class ComposerStaticInitf50441844da1a5b69d40e64795f8778a
 {
+    public static $prefixesPsr0 = array (
+        'S' => 
+        array (
+            'Shadow\\Core\\' => 
+            array (
+                0 => __DIR__ . '/../..' . '/src',
+            ),
+        ),
+    );
+
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
+            $loader->prefixesPsr0 = ComposerStaticInitf50441844da1a5b69d40e64795f8778a::$prefixesPsr0;
 
         }, null, ClassLoader::class);
     }

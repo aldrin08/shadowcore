@@ -7,4 +7,6 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Shadow\\Core\\' => array($baseDir . '/src'),
+    'Parsedown' => array($vendorDir . '/erusev/parsedown'),
+    'Doctrine\\Common\\Inflector\\' => array($vendorDir . '/doctrine/inflector/lib'),
 );
